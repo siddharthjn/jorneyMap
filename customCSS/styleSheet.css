@@ -3,7 +3,7 @@
 	/*margin-left: 10%;*/
 
 }
-.round-button-circle {
+#round-button-circle-Entry {
 	width: 100%;
 	height:0;
 	padding-bottom: 100%;
@@ -11,10 +11,55 @@
 	border:10px solid #cfdcec;
     overflow:hidden;
     
-    background: #4679BD; 
+    background: #46bd8a; 
     box-shadow: 0 0 3px gray;
 }
-.round-button-circle:hover {
+#round-button-circle-Entry:hover {
+	background:#30588e;
+}
+
+#round-button-circle-Foundation {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #bd8a46; 
+    box-shadow: 0 0 3px gray;
+}
+#round-button-circle-Foundation:hover {
+	background:#30588e;
+}
+
+#round-button-circle-Expert {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #bd4f46; 
+    box-shadow: 0 0 3px gray;
+}
+#round-button-circle-Expert:hover {
+	background:#30588e;
+}
+
+#round-button-circle-Lead {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #bd4679; 
+    box-shadow: 0 0 3px gray;
+}
+#round-button-circle-Lead:hover {
 	background:#30588e;
 }
 .round-button a {
