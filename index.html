@@ -55,6 +55,22 @@
   background:#30588e;
 }
 
+#round-button-circle-Experienced {
+  width: 100%;
+  height:0;
+  padding-bottom: 100%;
+    border-radius: 50%;
+  border:10px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #bd8a46; 
+    box-shadow: 0 0 3px gray;
+}
+#round-button-circle-Experienced:hover {
+  background:#30588e;
+}
+
+
 #round-button-circle-Expert {
   width: 100%;
   height:0;
@@ -114,16 +130,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Journey Map</a>
+      <a class="navbar-brand" onClick ="$('#about').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Journey Map</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="http://siddharthjn.github.io/tipssLanding/">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Blue TIPSS App</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Collaborate</a></li>
+        <li><a onclick="$('#profile').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Profile</a></li>
+        <li><a onclick= "$('#social').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Collaborate</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Career<span class="caret">
           </span></a>
@@ -143,9 +159,9 @@
 </nav>
 <br>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class ="row">
-      <div class ="col-sm-3">
+      <div class ="col-sm-2 col-md-offset-1">
         <div class="round-button">
           <div id="round-button-circle-Entry">
             <a>Entry
@@ -153,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div class ="col-sm-3">  
+      <div class ="col-sm-2">  
         <div class="round-button">
           <div id="round-button-circle-Foundation">
             <a>Foundation
@@ -161,7 +177,17 @@
           </div>
         </div>
       </div>
-            <div class ="col-sm-3">  
+
+            <div class ="col-sm-2">  
+        <div class="round-button">
+          <div id="round-button-circle-Experienced">
+            <a>Experienced
+            </a>
+          </div>
+        </div>
+      </div>
+
+            <div class ="col-sm-2">  
         <div class="round-button">
           <div id="round-button-circle-Expert">
             <a>Expert
@@ -169,7 +195,7 @@
           </div>
         </div>
       </div>
-            <div class ="col-sm-3">  
+            <div class ="col-sm-2">  
         <div class="round-button">
           <div id="round-button-circle-Lead">
             <a>Lead
@@ -197,9 +223,11 @@
       </tr>
     </thead> 
   </table>
+</div>
   <br><br><br>
-</div> 
+  <hr> 
 
+<div id ="social">
 <div class="col-md-7">
           <h2 class="featurette-heading"><br>Go Social<span class="text-muted"> or Go Home!</span></h2>
           <p class="lead"><br>Spread the word. <br><br>Lets Collaborate & Build the New Graduate Framework<br> <br>
@@ -210,11 +238,34 @@
  <div class="col-md-5" data-twttr-id="twttr-sandbox-0">
           <a class="twitter-timeline" href="https://twitter.com/BlueTipss" data-widget-id="618713813995659264">Tweets by @BlueTipss</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          <br><br><br>
-        </div>       
+        </div> 
+        <br><br><br> <br> 
+        </div> 
+        <<hr>
+
+<div id ="profile">
+
+  <div class="col-md-7">
+          <h2 class="featurette-heading">Journey of Early Professionals. <span class="text-muted">Envision the Growth.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block img-circle" src="image/sid.jpg">
+        </div>
+      </div>
+      <br><br><br><hr>
+
+      <div id="about">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">About Journey Map</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="customJS/animatescroll.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="customJS/table.js"></script>
