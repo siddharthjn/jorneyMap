@@ -11,7 +11,11 @@
     
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="customCSS/stylesheet.css" rel="stylesheet">
-    
+    <link rel="stylesheet" type="text/css" href="dataTables/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="dataTables/css/dataTables.tableTools.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.5.6/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick-1.5.6/slick-theme.css"/>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,6 +24,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
+    #sidImage{
+      float: left;
+    }
+    h4
+    {
+      float:left;
+    }
     .round-button {
   width:75%;
   /*margin-left: 10%;*/
@@ -120,7 +131,7 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -212,7 +223,9 @@
   <div class="panel-body">
   </div>
 
-  <!-- Table -->
+  
+  <div id ="table"> 
+  <!-- Table --
   <table class="table">
     <thead>
       <tr>
@@ -222,11 +235,13 @@
         <th>Training</th>
       </tr>
     </thead> 
-  </table>
+  </table>-->
 </div>
   <br><br><br>
   <hr> 
 
+<div class="container-fluid">
+<div class ="row">
 <div id ="social">
 <div class="col-md-7">
           <h2 class="featurette-heading"><br>Go Social<span class="text-muted"> or Go Home!</span></h2>
@@ -239,20 +254,44 @@
           <a class="twitter-timeline" href="https://twitter.com/BlueTipss" data-widget-id="618713813995659264">Tweets by @BlueTipss</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div> 
-        <br><br><br> <br> 
-        </div> 
-        <<hr>
+        </div></div></div></div>
+        
 
+<div class="jumbotron">
+<div class="container"> 
+<div class="well"><h2 class="featurette-heading">Journey of Early Professionals. <span class="text-muted">Envision the Growth.</span></h2></div> 
+    <img id= "sidImage" src="image/sid.jpg" width="80" height ="90" class="img-circle"> <h4> Siddharth Jain (Java Developer) 
+    <span class="label label-warning">Foundation</span></h4>
+    <br><br><br>
 <div id ="profile">
-
-  <div class="col-md-7">
-          <h2 class="featurette-heading">Journey of Early Professionals. <span class="text-muted">Envision the Growth.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block img-circle" src="image/sid.jpg">
-        </div>
-      </div>
+          <div class="personalStory">
+            <div>
+              <h3>Training</h3>
+              <li>Public Health Training</li>
+              <li>Java Bootcamp</li>
+              <li>Brighter Blue - Core Consulting Skills</li>
+              <li>Introduction To Bluemix</li>
+            </div>
+            <div>
+              <h3>Innovation</h3>
+              <li>Organized Bluemix Hackathon to Stregnthen IBM's partnership Universities, Promote Bluemix and facilitate Recruitment pROCESS</li>
+              <li>Blue TIPSS</li>
+              <li>Microsoft Hack A Week Winner</li>
+            </div>
+            <div>
+              <h3>Project</h3>
+              <li>Documented</li>
+              <li>hh</li>
+              <li>hh</li>
+            </div>
+            <div>
+              <h3>Social</h3>
+              <li>Campus Ambassador</li>
+              <li>Organized Junior Achievement Program</li>
+              <li>Participated in ECF Campaign</li>
+            </div>
+          </div>
+      </div></div></div>
       <br><br><br><hr>
 
       <div id="about">
@@ -269,5 +308,15 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="customJS/table.js"></script>
+    <script type="text/javascript" charset="utf8" src="dataTables/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="dataTables/js/dataTables.tableTools.js"</script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick-1.5.6/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $('.personalStory').slick();
+});
+    </script>
+
   </body>
 </html>
