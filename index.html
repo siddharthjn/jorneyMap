@@ -14,7 +14,6 @@
     <link rel="stylesheet" type="text/css" href="dataTables/css/jquery.dataTables.css">
     <link rel="stylesheet" type="text/css" href="dataTables/css/dataTables.tableTools.css">
     <link rel="stylesheet" type="text/css" href="slick-1.5.6/slick.css"/>
-    // Add the new slick-theme.css if you want the default styling
     <link rel="stylesheet" type="text/css" href="slick-1.5.6/slick-theme.css"/>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,6 +35,7 @@
   /*margin-left: 10%;*/
 
 }
+
 #round-button-circle-Entry {
   width: 100%;
   height:0;
@@ -151,17 +151,18 @@
         <li><a href="#">Blue TIPSS App</a></li>
         <li><a onclick="$('#profile').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Profile</a></li>
         <li><a onclick= "$('#social').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Collaborate</a></li>
+
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Career<span class="caret">
           </span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Developer</a></li>
+            <li><a id ="dev" href="#">Developer</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">SAP</a></li>
+            <li><a id ="sap" href="#">SAP</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Tester</a></li>
+            <li><a id= "tester" href="#">Tester</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Project Manager</a></li>
+            <li><a id="pm" href="#">Project Manager</a></li>
           </ul>
         </li>
       </ul>
@@ -224,19 +225,7 @@
   </div>
 
   
-  <div id ="table"> 
-  <!-- Table --
-  <table class="table">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Responsibilities</th>
-        <th>Related Tasks</th>
-        <th>Training</th>
-      </tr>
-    </thead> 
-  </table>-->
-</div>
+  <div id ="table"> </div>
   <br><br><br>
   <hr> 
 
@@ -260,14 +249,49 @@
 <div class="jumbotron">
 <div class="container"> 
 <div class="well"><h2 class="featurette-heading">Journey of Early Professionals. <span class="text-muted">Envision the Growth.</span></h2></div> 
-    <img id= "sidImage" src="image/sid.jpg" width="80" height ="90" class="img-circle"> <h4> Siddharth Jain (Java Developer) 
-    <span class="label label-warning">Foundation</span></h4>
+<div class ="well">
+    <img id= "sidImage" src="image/sid.jpg" width="80" height ="90" class="img-circle"> <h3> Siddharth Jain (Java Developer) 
+    <span class="label label-warning">Foundation</span></h3>
     <br><br><br>
 <div id ="profile">
-          <div class="personalStory">
+          <div id="sidStory">
             <div>
               <h3>Training</h3>
-              <li>Public Health Training</li>
+              <li><p><b>Public Healthcare Training :</b></p><p>Provided me insight about public healthcare industry and how high level descisions regarding Panorama are made by the clients</p></li>
+              <li><p><b>Java Bootcamp : </b></p><p>Honed my core Java skills and introduced me to advanced Java Programming</p></li>
+              <li><p><b>Brighter Blue :</p></b><p>Refined my communication skills, introduced me to key core consulting skills and enabled me to think from professional development prespective</p></li>
+              <li><p><b>Introduction To Bluemix :</b></p><p>Aligned myself with CAMSS strategy, gained useful insight about Cloud & Mobile Computing</p> </li>
+            </div>
+            <div>
+              <h3>Innovation</h3>
+              <li><p><b><a href ="http://cs.smu.ca/bluemixhackathon/">Bluemix Hackathon</a></b></p><p>Partnered with Universities in Halifax to organize an Internet Of Things Bluemix Hackathon. Through this Hackathon we were able to promote and train students in bluemix, align fellow IBMers with CAMSS strategy & recruit young talent from the universities <br> I was awarded Service Excellence Award and given the opportuinity to lead the Bluemix Hackathon Initiative across IBM Centers in North America.</p></li>
+              <li><p><b>Blue TIPSS</b></p><p>As a team of new graduates, we built a framework that would engage, enhance & retain new hires.<br> The framework based on IBM's grow organic strategy won the Best Vision Award at the GIC We Deliver Competition and as a team we were nominated for Service Excellence Award</p> </li>
+              <li><p><b><a href ="http://siddharthjn.github.io/Authnet/#/">Microsoft Hack A Week Winner</a></b></p> <p>Using Microsoft's technoligies like Azure, Netduino & Twilio API, our team built a 2 step verification system called Authnet. Through this 35$ solution, you could let your friends access your apartment through AuthNet's webapp, receive notification if someone tries to break in and see the logs of who accessed your apartment</p></li>
+            </div>
+            <div>
+              <h3>Project</h3>
+              <li><p><b>Workstation Setup/Documentation</b></p><p>Before joining Panorama, it used to take 1 month for a new developer on the team to setup his workstation. As a team of new graduates in Halifax, we documented every problem,steps and solutions with screenshots on the wiki. This drastically reduced time from 1 month to mere 3-4 days to setup the workstation. <br> As a result we were able to cut down the cost by 3 weeks/resource enabling them to start delivering after being for 1 week on the account.</p></li>
+              <li><p><b>Overdelivering for 2.5.7 Beta Release</b></p><p>As a team of early professionals in Halifax, we were faced with a daunting task of delivering critical solutions for the 2.5.7 release. <br>We leveraged the senior resources based in Burnaby and coordinated with our counterparts in India only to found out that we had overdelivered vs the client's expectations. As a team, we recieved special mention from scrum master and clients for this accomplishment.</p></li>
+            </div>
+            <div>
+              <h3>Social</h3>
+              <li><p><b>Campus Ambassador</b></p><p>Interacted with students from Halifax, represented IBM at various campuses and helped the IBM recruitment team in recruitng young talent.</p></li>
+              <li><p><b>Junior Achievement Program</b></p><p> Organized and Trained IBM volunteers to participate in the Junior Achievment Session. As a part of this initiative, IBMers visited a number of high schools to teach young students how to build their careers</p></li>
+              <li><p><b>Participated in ECF Campaign</b></p><p></p></li>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+<div class ="well">
+ <img id= "sidImage" src="image/anasImage.jpg" width="80" height ="90" class="img-circle"> <h4> Anas Aman (Test Manager) 
+    <span class="label label-danger">Expert</span></h4>
+    <br><br><br>
+          <div id="anasStory">
+            <div>
+              <h3>Training</h3>
+              <li>MBA</li>
               <li>Java Bootcamp</li>
               <li>Brighter Blue - Core Consulting Skills</li>
               <li>Introduction To Bluemix</li>
@@ -291,16 +315,84 @@
               <li>Participated in ECF Campaign</li>
             </div>
           </div>
-      </div></div></div>
-      <br><br><br><hr>
+        </div>
+
+    <div class ="well">   
+    <img id= "sidImage" src="image/cameron.jpg" width="80" height ="90" class="img-circle"> <h4> Cameron Russel (Project Manager) 
+    <span class="label label-warning">Foundation</span></h4>
+    <br><br><br>
+          <div id="cameronStory">
+            <div>
+              <h3>Training</h3>
+              <li>MBA</li>
+              <li>Java Bootcamp</li>
+              <li>Brighter Blue - Core Consulting Skills</li>
+              <li>Introduction To Bluemix</li>
+            </div>
+            <div>
+              <h3>Innovation</h3>
+              <li>Organized Bluemix Hackathon to Stregnthen IBM's partnership Universities, Promote Bluemix and facilitate Recruitment pROCESS</li>
+              <li>Blue TIPSS</li>
+              <li>Microsoft Hack A Week Winner</li>
+            </div>
+            <div>
+              <h3>Project</h3>
+              <li>Documented</li>
+              <li>hh</li>
+              <li>hh</li>
+            </div>
+            <div>
+              <h3>Social</h3>
+              <li>Campus Ambassador</li>
+              <li>Organized Junior Achievement Program</li>
+              <li>Participated in ECF Campaign</li>
+            </div>
+          </div>
+        </div>
+
+    <div class ="well">
+    <img id= "sidImage" src="image/gaurav.jpg" width="80" height ="90" class="img-circle"> <h4> Gaurav Kalra (SAP Consultant) 
+    <span class="label label-danger">Experienced</span></h4>
+    <br><br><br>
+          <div id="gauravStory">
+            <div>
+              <h3>Training</h3>
+              <li>MBA</li>
+              <li>Java Bootcamp</li>
+              <li>Brighter Blue - Core Consulting Skills</li>
+              <li>Introduction To Bluemix</li>
+            </div>
+            <div>
+              <h3>Innovation</h3>
+              <li>Organized Bluemix Hackathon to Stregnthen IBM's partnership Universities, Promote Bluemix and facilitate Recruitment pROCESS</li>
+              <li>Blue TIPSS</li>
+              <li>Microsoft Hack A Week Winner</li>
+            </div>
+            <div>
+              <h3>Project</h3>
+              <li>Documented</li>
+              <li>hh</li>
+              <li>hh</li>
+            </div>
+            <div>
+              <h3>Social</h3>
+              <li>Campus Ambassador</li>
+              <li>Organized Junior Achievement Program</li>
+              <li>Participated in ECF Campaign</li>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
 
       <div id="about">
         <div class="col-md-12">
           <h2 class="featurette-heading">About Journey Map</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-
-
+     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -314,7 +406,10 @@
     <script type="text/javascript" src="slick-1.5.6/slick.min.js"></script>
     <script>
       $(document).ready(function(){
-  $('.personalStory').slick();
+  $('#sidStory').slick();
+  $('#anasStory').slick();
+  $('#cameronStory').slick();
+  $('#gauravStory').slick();
 });
     </script>
 
