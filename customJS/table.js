@@ -1,7 +1,7 @@
 // data to be loaded in table
 
 var devEntryDataSet = [
-['1','Analysing a Work Item','Complete Knowledge Transfer/Job Shadowing',' AttendJava Bootcamp If Aplicable'],
+['1','Analysing a Work Item','Complete Knowledge Transfer/Job Shadowing',' AttendJava Bootcamp If Aplicable',],
 ['2','Delivering Work Items at A steady Rate','Deliver an appropriate number of work items per week -- check with your team lead for guidance','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)'],
 ['3','Getting familiar with Scrum/AAO Methodology if applicable','Document atleast 2 complex problems on Wiki','Bluemix and the Internet of Things (ILX_O_URL-ILXA-9M5AS7_11)'],
 ['4','Unit & Regression Testing','Identify & Document at least 5 workstation problems with solutions','Java - Introduction to Hibernate (00738587)'],
@@ -9,12 +9,12 @@ var devEntryDataSet = [
 ];
 
 var devFoundationDataSet = [
-['1','Apply the best design pattern to a solution after consulting senior members','Deliver work items with the best design solution. By now a developer should be fluent with 2-3 design patterns (example factory method, singleton pattern etc)','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)','Hello Hello Hello Hello Hello Hello'],
-['2','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Take part in sizing meeting with scrum masters/Team Lead to break down big chunk of work( epics) into smaller achievable tasks. Estimate the time taken and complexity of problem as a team','Bluemix and the Internet of Things (ILX_O_URL-ILXA-9M5AS7_11)','Hello Hello Hello Hello Hello Hello'],
-['3','Interpret and Deliver requirement analysis/wireframes drawn by the Business Analyst.','Deliver work Leverage the knowledge of  business analyst to understand the business requirements, application and wireframes','Scrum practitioner certification if applicable to the project -<p> (I) SMU Session 2: Scrum Roles and Intro to Scrum Master Role  (ILX_O_URL-ILXA-9VMMLM_11)</p> <p>(ii) Using scrum methods with Rational Team Concert Version 4: Part 2. Plan and manage sprints - developerWorks  (ILX_O_URL-ILXA-9GQKYQ_11)</p>', 'Hello Hello Hello Hello Hello Hello'],
-['4','Presenting and communicating solution to the team & product owners via sametime meeting room, ppt or on call.','Present the solution to team lead and product owners','Programming in C++: Structure and Data Types', 'Hello Hello Hello Hello Hello Hello'],
-['5','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Complete the required training to understand the industry associated with project','ajajajajjajajajajajjajajajaj', 'Hello Hello Hello Hello Hello Hello'],
-['6','Understanding the business knowledge of the industry associated with project (example RBC - Finance)','Job shadow on 1 other module of the project(Cross Team learning)</td><td>Check with Project manager for the training required to understand the industry','ajajajajjajajajajajjajajajaj', 'Hello Hello Hello Hello Hello Hello']
+['1','Apply the best design pattern to a solution after consulting senior members','Deliver work items with the best design solution. By now a developer should be fluent with 2-3 design patterns (example factory method, singleton pattern etc)','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)','-'],
+['2','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Take part in sizing meeting with scrum masters/Team Lead to break down big chunk of work( epics) into smaller achievable tasks. Estimate the time taken and complexity of problem as a team','Bluemix and the Internet of Things (ILX_O_URL-ILXA-9M5AS7_11)','-'],
+['3','Interpret and Deliver requirement analysis/wireframes drawn by the Business Analyst.','Deliver work Leverage the knowledge of  business analyst to understand the business requirements, application and wireframes','Scrum practitioner certification if applicable to the project (I) SMU Session 2: Scrum Roles and Intro to Scrum Master Role  (ILX_O_URL-ILXA-9VMMLM_11)</p> <p>(ii) Using scrum methods with Rational Team Concert Version 4: Part 2. Plan and manage sprints - developerWorks  (ILX_O_URL-ILXA-9GQKYQ_11)</p>', '-'],
+['4','Presenting and communicating solution to the team & product owners via sametime meeting room, ppt or on call.','Present the solution to team lead and product owners','Programming in C++: Structure and Data Types', '-'],
+['5','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Complete the required training to understand the industry associated with project','-', '-'],
+['6','Understanding the business knowledge of the industry associated with project (example RBC - Finance)','Job shadow on 1 other module of the project(Cross Team learning). Check with Project manager for the training required to understand the industry','-', '-']
 ];
 
 var devExperiencedDataSet = [
@@ -166,7 +166,7 @@ var pmLeadDataSet = [
 ];
 
 var sapEntryDataSet = [
-['1','Apply the best design pattern to a solution after consulting senior members','Deliver work items with the best design solution. By now a developer should be fluent with 2-3 design patterns (example factory method, singleton pattern etc)','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)','Hello Hello Hello Hello Hello Hello']
+['1','Apply the best design pattern to a solution after consulting senior members','Deliver work items with the best design solution. By now a developer should be fluent with 2-3 design patterns (example factory method, singleton pattern etc)','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)','-']
 ];
 
 var sapFoundationDataSet =[
