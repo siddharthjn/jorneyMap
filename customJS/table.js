@@ -1,20 +1,21 @@
 // data to be loaded in table
 
 var devEntryDataSet = [
-['1','Analysing a Work Item','Complete Knowledge Transfer/Job Shadowing',' AttendJava Bootcamp If Aplicable',],
-['2','Delivering Work Items at A steady Rate','Deliver an appropriate number of work items per week -- check with your team lead for guidance','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)'],
-['3','Getting familiar with Scrum/AAO Methodology if applicable','Document atleast 2 complex problems on Wiki','Bluemix and the Internet of Things (ILX_O_URL-ILXA-9M5AS7_11)'],
-['4','Unit & Regression Testing','Identify & Document at least 5 workstation problems with solutions','Java - Introduction to Hibernate (00738587)'],
-['5','Documenting/Maintaining KT Docs','-','Complete 3 Analytics courses - http://w3.blueprint.sby.ibm.com/b_dir/blueprint.nsf/url/AB49344OpenDocument']
+['1','Analysing a Work Item','Complete Knowledge Transfer/Job Shadowing','Attend Java bootcamp if applicable','Number of tasks completed against client benchmark (talk to manager or team lead)'],
+['2','Delivering Work Items at A steady Rate','Deliver an appropriate number of work items per week -- check with your team lead for guidance','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)','Number of Tasks reopened',],
+['3','Getting familiar with Scrum/AAO Methodology if applicable','Document atleast 2 complex problems on Wiki','Bluemix and the Internet of Things (ILX_O_URL-ILXA-9M5AS7_11)','Number of defects reopened'],
+['4','Unit & Regression Testing','Identify & Document at least 5 workstation problems with solutions','Java - Introduction to Hibernate (00738587)', 'Number of documentations completed'],
+['5','Documenting/Maintaining KT Docs','-','Complete 3 Analytics courses - http://w3.blueprint.sby.ibm.com/b_dir/blueprint.nsf/url/AB49344OpenDocument', 'Number of Think 40 Hours/ Certifications completed']
 ];
 
 var devFoundationDataSet = [
-['1','Apply the best design pattern to a solution after consulting senior members','Deliver work items with the best design solution. By now a developer should be fluent with 2-3 design patterns (example factory method, singleton pattern etc)','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)','-'],
-['2','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Take part in sizing meeting with scrum masters/Team Lead to break down big chunk of work( epics) into smaller achievable tasks. Estimate the time taken and complexity of problem as a team','Bluemix and the Internet of Things (ILX_O_URL-ILXA-9M5AS7_11)','-'],
-['3','Interpret and Deliver requirement analysis/wireframes drawn by the Business Analyst.','Deliver work Leverage the knowledge of  business analyst to understand the business requirements, application and wireframes','Scrum practitioner certification if applicable to the project (I) SMU Session 2: Scrum Roles and Intro to Scrum Master Role  (ILX_O_URL-ILXA-9VMMLM_11)</p> <p>(ii) Using scrum methods with Rational Team Concert Version 4: Part 2. Plan and manage sprints - developerWorks  (ILX_O_URL-ILXA-9GQKYQ_11)</p>', '-'],
-['4','Presenting and communicating solution to the team & product owners via sametime meeting room, ppt or on call.','Present the solution to team lead and product owners','Programming in C++: Structure and Data Types', '-'],
-['5','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Complete the required training to understand the industry associated with project','-', '-'],
-['6','Understanding the business knowledge of the industry associated with project (example RBC - Finance)','Job shadow on 1 other module of the project(Cross Team learning). Check with Project manager for the training required to understand the industry','-', '-']
+['1','Apply the best design pattern to a solution after consulting senior members','Deliver work items with the best design solution. By now a developer should be fluent with 2-3 design patterns (example factory method, singleton pattern etc)','Bluemix Getting started for Architects & Developers (ILX_O_URL-ILXA-9HMRJY_11)','Number of tasks completed against client benchmark (talk to manager or team lead)'],
+['2','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Take part in sizing meeting with scrum masters/Team Lead to break down big chunk of work( epics) into smaller achievable tasks. Estimate the time taken and complexity of problem as a team','Bluemix and the Internet of Things (ILX_O_URL-ILXA-9M5AS7_11)','Number of Tasks reopened'],
+['3','Interpret and Deliver requirement analysis/wireframes drawn by the Business Analyst.','Deliver work Leverage the knowledge of  business analyst to understand the business requirements, application and wireframes','Using scrum methods with Rational Team Concert Version 4: Plan and manage sprints - developerWorks  (ILX_O_URL-ILXA-9GQKYQ_11)', 'Number of defects reopened'],
+['4','Presenting and communicating solution to the team & product owners via sametime meeting room, ppt or on call.','Present the solution to team lead and product owners','Programming in C++: Structure and Data Types', 'Number of documentations completed'],
+['5','Accurately estimate the size/complexity of work items and the time needed to solve a work item)','Complete the required training to understand the industry associated with project','-', 'Number of Think 40 Hours/ Certifications completed'],
+['6','Understanding the business knowledge of the industry associated with project (example RBC - Finance)','Job shadow on 1 other module of the project(Cross Team learning). Check with Project manager for the training required to understand the industry','-','Number of Projects/Technologies worked other than the assigned project'],
+['7','-','-','-','Number of Business processes/Ticket Efficiency improved within their project & their impact']
 ];
 
 var devExperiencedDataSet = [
@@ -65,26 +66,26 @@ var devLeadDataSet = [
 ['14',  '-','-','-','Impact on performance and scalability of application']
 ];
 
-//QA data
+//QA data 
 var qaEntryDataSet= [
-['1','Core: Understanding requirements - test case creation and verification','-','On-boarding tasks for CIC: QA Boot Camp','Core: Understanding Requirements - Quality and Accuracy of Test Cases Created'],
-['2','Core: defect life cycle - identifying and validating log defects, retesting defects','-','ISTQB Certification: Foundation level','Core: Defect Life Cycle - Daily defects created rate, daily defects retest rate'],
-['3','Core: manual testing - test case execution, review existing test cases','-','Combinatorial Test Design (CTD): Level 1','Core: Manual testing - Daily execution rates, test cases complexity execution rates'],
-['4','Specialist: automation testing - executing automation scripts, maintaining existing scripts','-','IBM Rational Quality Manager (RQM)','Specialist: Automation testing - daily execution rates, maintaining the scripts in a "ready to execute state"'],
-['5','-','-','Perfecto Mobile Automation Specialist','Specialist: Education - ISTQB Certification: Foundation level achieved, combinatorial test design (CTD): Level 1 achieved, Perfecto Mobile Automation Specialist'],
-['6','-','-','Additional: Perfecto Mobile Cloud for HP UFT Specialist','-'],
-['7','-','-','Additional: Selenium WebDriver Specialist','-']
+['1','Core: Understanding requirements - test case creation and verification','On-boarding tasks for CIC: QA Boot Camp','Core: Understanding Requirements - Quality and Accuracy of Test Cases Created'],
+['2','Core: defect life cycle - identifying and validating log defects, retesting defects','ISTQB Certification: Foundation level','Core: Defect Life Cycle - Daily defects created rate, daily defects retest rate'],
+['3','Core: manual testing - test case execution, review existing test cases','Combinatorial Test Design (CTD): Level 1','Core: Manual testing - Daily execution rates, test cases complexity execution rates'],
+['4','Specialist: automation testing - executing automation scripts, maintaining existing scripts','IBM Rational Quality Manager (RQM)','Specialist: Automation testing - daily execution rates, maintaining the scripts in a "ready to execute state"'],
+['5','-','Perfecto Mobile Automation Specialist','Specialist: Education - ISTQB Certification: Foundation level achieved, combinatorial test design (CTD): Level 1 achieved, Perfecto Mobile Automation Specialist'],
+['6','-','Additional: Perfecto Mobile Cloud for HP UFT Specialist','-'],
+['7','-','Additional: Selenium WebDriver Specialist','-']
 ];
 
 var qaFoundationDataSet= [
-['1','Requirements Analysis - Test scenario creation and verification, requirements and design document review, gap/coverage analysis','-','ISTQB Agile Certification','Requirements Analysis - Defect discovery rate in documentation, requirements traceability, quality of requirements being created'],
-['2','Test environment -  Environment sanity testing, running batch processes for sanity and smoke testing','-','Perfecto Mobile Automation Master','Test Environment - accuracy of sanity testing'],
-['3','Test data creation and maintenance -  assisting with test data maintenance, data integrity testing, confirm validity of data','-','Document Analytics (DA)','Database Testing - ability to use accurate test data, ability to manipulate test data appropriately'],
-['4','Tool experience -  configuration or library management tools, test/defect management tools','-','Code Analysis & Reporting (CAR)','Tool Experience - Utilize all relevant features and procedures with required tools'],
-['5','Specialist: Automation testing - creation of automation scripts, creation and understanding of reports','-','Additional: Perfecto Mobile Cloud for HP UFT Master','Specialist: Automation Testing - daily script creation rate, automation report analysis'],
-['6','-','-','Additional: Selenium Webdriver Master',''],
-['7','-','-','Additional: Application Testing Automation (ATA)','-'],
-['8','-','-','Additional: Mobile Quality Assurance (MQA)','-']
+['1','Requirements Analysis - Test scenario creation and verification, requirements and design document review, gap/coverage analysis','ISTQB Agile Certification','Requirements Analysis - Defect discovery rate in documentation, requirements traceability, quality of requirements being created'],
+['2','Test environment -  Environment sanity testing, running batch processes for sanity and smoke testing','Perfecto Mobile Automation Master','Test Environment - accuracy of sanity testing'],
+['3','Test data creation and maintenance -  assisting with test data maintenance, data integrity testing, confirm validity of data','Document Analytics (DA)','Database Testing - ability to use accurate test data, ability to manipulate test data appropriately'],
+['4','Tool experience -  configuration or library management tools, test/defect management tools','Code Analysis & Reporting (CAR)','Tool Experience - Utilize all relevant features and procedures with required tools'],
+['5','Specialist: Automation testing - creation of automation scripts, creation and understanding of reports','Additional: Perfecto Mobile Cloud for HP UFT Master','Specialist: Automation Testing - daily script creation rate, automation report analysis'],
+['6','-','Additional: Selenium Webdriver Master',''],
+['7','-','Additional: Application Testing Automation (ATA)','-'],
+['8','-','Additional: Mobile Quality Assurance (MQA)','-']
 ];
 
 
@@ -98,22 +99,23 @@ var qaExperiencedDataSet = [
 ['7','-','-','Additional: RFT, UFT','-']
 ];
 
-var qaExpertDataSet= [
-['1','Planning - deployment plan, risk management plan, test plan, test data plan','-','Certified Associate in Project Management (CAPM)','Planning - eddicient planning capabilities, understand different testing templates in alignment with the organization structure'],
-['2','Effort estimations','-','Master Test Plan','Accuracy of test estimations'],
-['3','Tool management - configuration or library management tools, test/defect management tools','-','Test Estimation Planning','Tool Management - efficient use of management tools, ability to create and retrieve management reports'],
-['4','Team management - Provide mentoring to the junior team members, assist in building skill sets','-','Work Breakdown Structure (WBS)','Team Management - skills, knowledge and expertise shared with junior team members to assist in their career growth, assisting in generating process documentation, effective communication with team members and test managers'],
-['5','Specialist: Automation testing - full automation solution planning, preparing proof of concepts','-','Additional: ISTQB Technical Test Analyst','Specialist: Automation testing - abiulity to determine and demonstrate appropriate automation solution for client\'s needs'],
-['6','-','-','Additional: Developing Proof of Concept','-']
+var qaExpertDataSet = [
+['1','Planning - deployment plan, risk management plan, test plan, test data plan','Certified Associate in Project Management (CAPM)','Planning - eddicient planning capabilities, understand different testing templates in alignment with the organization structure'],
+['2','Effort estimations','Master Test Plan','Accuracy of test estimations'],
+['3','Tool management - configuration or library management tools, test/defect management tools','Test Estimation Planning','Tool Management - efficient use of management tools, ability to create and retrieve management reports'],
+['4','Team management - Provide mentoring to the junior team members, assist in building skill sets','Work Breakdown Structure (WBS)','Team Management - skills, knowledge and expertise shared with junior team members to assist in their career growth, assisting in generating process documentation, effective communication with team members and test managers'],
+['5','Specialist: Automation testing - full automation solution planning, preparing proof of concepts','Additional: ISTQB Technical Test Analyst','Specialist: Automation testing - abiulity to determine and demonstrate appropriate automation solution for client\'s needs'],
+['6','-','Additional: Developing Proof of Concept','-']
+];
+ 
+var qaLeadDataSet = [
+['1','Solutioning - tool selection and recommentation, technique selection, solution design proposals, test strategy developmnt, master test plan creation','Course for Interview the IBM Way','Solutioning - understand tooks, techniques and strategy selection, demonstrate to client how the solution adds value, expertise in test strategy and master test plan creation'],
+['2','Estimations - project plan, resource allocation','Additional: ISTQB Advanced Level: Test Manager/PMP (if qualified)','Estimation - efficient in creating project plan, effective utilization of resources'],
+['3','Team management - provide career progression guidance for team members, coordinate team members\' work activities, peer review team members\' work items, development management skills, team performance evaluation','-','Team management - mentoring others for technical and analytical skills, engaging team members with new initiatives, effectively evaluating team performance measuring criteria'],
+['4','Testing management - monitor the progress of the team\'s activities, perform test case review and sign off, defect triage, management of test case suites, project health assessments','-','Testing management - developing defect analysis reports, developing project status reports for project health assessment, effective daily test executions reports, effective test executaion summary reports, effective effort and time management, effective resource utilization'],
+['5','Documentation - documentation for the client, project lesson learned','-','Documentation - develop effective test closure documentation for client, capture all lessons learned for future use']
 ];
 
-var qaLeadDataSet= [
-['1','Solutioning - tool selection and recommentation, technique selection, solution design proposals, test strategy developmnt, master test plan creation','-','Course for Interview the IBM Way','Solutioning - understand tooks, techniques and strategy selection, demonstrate to client how the solution adds value, expertise in test strategy and master test plan creation'],
-['2','Estimations - project plan, resource allocation','-','Additional: ISTQB Advanced Level: Test Manager/PMP (if qualified)','Estimation - efficient in creating project plan, effective utilization of resources'],
-['3','Team management - provide career progression guidance for team members, coordinate team members\' work activities, peer review team members\' work items, development management skills, team performance evaluation','-','-','Team management - mentoring others for technical and analytical skills, engaging team members with new initiatives, effectively evaluating team performance measuring criteria'],
-['4','Testing management - monitor the progress of the team\'s activities, perform test case review and sign off, defect triage, management of test case suites, project health assessments','-','-','Testing management - developing defect analysis reports, developing project status reports for project health assessment, effective daily test executions reports, effective test executaion summary reports, effective effort and time management, effective resource utilization'],
-['5','Documentation - documentation for the client, project lesson learned','-','-','Documentation - develop effective test closure documentation for client, capture all lessons learned for future use']
-];
 
 //PM Data
 
@@ -197,6 +199,7 @@ $("#dev").click(function(){
                 { "title": "Responsibilities" },
                 { "title": "Related Tasks" },
                 { "title": "Training", "class": "center" },
+                { "title": "Measuring Success", "class": "center"},
 
                 ],
             "scrollY": 200,
@@ -369,10 +372,9 @@ $("#tester").click(function(){
             "data": qaEntryDataSet,
             "columns": [
                 { "title": "#" },
-                { "title": "Responsibilities" },
-                { "title": "Related Tasks" },
+                { "title": "Responsibilities & Related Tasks" },
                 { "title": "Training", "class": "center" },
-
+                { "title": "Measuring Success", "class": "center" },
                 ],
             "scrollY": 200,
             "scrollX": true
@@ -385,8 +387,7 @@ $("#tester").click(function(){
             "data": qaFoundationDataSet,
             "columns": [
                 { "title": "#" },
-                { "title": "Responsibilities" },
-                { "title": "Related Tasks" },
+                { "title": "Responsibilities & Related Tasks" },
                 { "title": "Training", "class": "center" },
                 { "title": "Measuring Success", "class": "center" },
             ],
@@ -402,8 +403,7 @@ $("#tester").click(function(){
             "data": qaExperiencedDataSet,
             "columns": [
                 { "title": "#" },
-                { "title": "Responsibilities" },
-                { "title": "Related Tasks" },
+                { "title": "Responsibilities & Related Tasks" },
                 { "title": "Training", "class": "center" },
                 { "title": "Measuring Success", "class": "center" },
             ],
@@ -419,8 +419,7 @@ $("#tester").click(function(){
             "data": qaExpertDataSet,
             "columns": [
                 { "title": "#" },
-                { "title": "Responsibilities" },
-                { "title": "Related Tasks" },
+                { "title": "Responsibilities & Related Tasks" },
                 { "title": "Training", "class": "center" },
                 { "title": "Measuring Success", "class": "center" },
             ],
@@ -436,8 +435,7 @@ $("#tester").click(function(){
             "data": qaLeadDataSet,
             "columns": [
                 { "title": "#" },
-                { "title": "Responsibilities" },
-                { "title": "Related Tasks" },
+                { "title": "Responsibilities & Related Tasks" },
                 { "title": "Training", "class": "center" },
                 { "title": "Measuring Success", "class": "center" },
             ],
